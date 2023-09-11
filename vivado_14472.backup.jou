@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Sep 11 20:24:29 2023
+# Process ID: 14472
+# Current directory: D:/Muhtas1_servo_controller/Basys3_servocontroller_kodu
+# Command line: vivado.exe D:\Muhtas1_servo_controller\Basys3_servocontroller_kodu\servocontrollerBays.xpr
+# Log file: D:/Muhtas1_servo_controller/Basys3_servocontroller_kodu/vivado.log
+# Journal file: D:/Muhtas1_servo_controller/Basys3_servocontroller_kodu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Muhtas1_servo_controller/Basys3_servocontroller_kodu/servocontrollerBays.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse D:/Muhtas1_servo_controller/Basys3_servocontroller_kodu/servocontrollerBays.srcs/sources_1/new/servo_interface.v
+update_compile_order -fileset sources_1
+update_module_reference design_1_Servo_interface_0_0
+validate_bd_design
+validate_bd_design -force
+save_bd_design
